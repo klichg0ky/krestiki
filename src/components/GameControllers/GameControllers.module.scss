@@ -1,0 +1,25 @@
+$CONTROLLER_WIDTH: 200px;
+$CONTROLLER_HEIGHT: 40px;
+
+.container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  width: $CONTROLLER_WIDTH;
+  height: $CONTROLLER_HEIGHT;
+  font-size: 24px;
+}
+
+.button {
+  width: $CONTROLLER_WIDTH;
+  height: $CONTROLLER_HEIGHT;
+  cursor: pointer;
+  background: #ccc;
+  border: 0;
+  font-size: 24px;
+  margin-right: 20px;
+}
